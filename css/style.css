@@ -1,0 +1,187 @@
+/* common for all pages */
+body {
+  margin: 0%;
+  background-color: rgb(53, 52, 52);
+}
+.header {
+  background-color: rgb(85, 232, 191);
+  max-width: 100%;
+  font-size: large;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.nav-bar {
+  margin-left: 80px;
+}
+.nav {
+  justify-content: center;
+  margin-left: 200px;
+  text-decoration: none;
+  color: black;
+}
+.section {
+  padding: 0%;
+  font-size: xx-large;
+}
+.footer {
+  font-size: large;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  text-align: center;
+  margin-top: 210px;
+  background-color: rgb(85, 232, 191);
+}
+
+/* index.html */
+.welcome {
+  color: rgb(119, 246, 191);
+  text-align: center;
+}
+
+.hello {
+  color: rgb(110, 249, 196);
+  margin-left: 47px;
+}
+.ima {
+  display: flex;
+  margin-left: 140px;
+}
+#pic {
+  border-radius: 9px;
+  height: 450px;
+  width: 350px;
+  margin-left: 16px;
+}
+
+/* about.html */
+.order {
+  color: rgb(119, 246, 191);
+}
+.unorder {
+  color: rgb(119, 246, 191);
+}
+.logos {
+  display: flex;
+  margin-left: 300px;
+}
+#logo {
+  width: 230px;
+  height: 290px;
+  border-radius: 8px;
+  margin-left: 30px;
+}
+.logos2 {
+  display: flex;
+  margin-left: 370px;
+}
+#logoo {
+  width: 300px;
+  height: 360px;
+  border-radius: 8px;
+  margin-left: 29px;
+}
+/* project.html */
+.links {
+  color: rgb(106, 250, 87);
+}
+/* contact.html */
+#forms {
+  font-size: xx-large;
+  margin-top: 190px;
+  margin-left: 500px;
+  margin-right: 200px;
+}
+.label {
+  color: rgb(119, 246, 191);
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.place {
+  font-size: large;
+  border: none;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  border-radius: 9px;
+  width: 50%;
+}
+.button {
+  background-color: rgb(110, 249, 196);
+  margin-left: 700px;
+  width: 100px;
+  border-radius: 34px;
+  border: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+@media (max-width: 1000px) {
+  .header {
+    max-width: 100%;
+    background-color: rgb(96, 246, 214);
+    padding-left: 20px;
+    font-size: medium;
+  }
+  .nav {
+    margin-left: 60px;
+  }
+  .nav-bar {
+    margin-left: 60px;
+  }
+  .section {
+    font-size: medium;
+  }
+  .footer {
+    font-size: small;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    text-align: center;
+    margin-top: 280px;
+    background-color: rgb(85, 232, 191);
+  }
+  .welcome {
+    font-size: larger;
+  }
+  .hello {
+    margin-left: 12px;
+  }
+  .ima {
+    display: flex;
+    margin-left: 40px;
+  }
+  #pic {
+    border-radius: 9px;
+    height: 290px;
+    width: 190px;
+    margin-left: 8px;
+  }
+  .this {
+    font-size: x-large;
+    color: rgb(119, 246, 191);
+    margin-left: 200px;
+  }
+
+  .logos {
+    display: flex;
+    margin-left: 140px;
+  }
+  #logo {
+    width: 110px;
+    height: 160px;
+    border-radius: 8px;
+    margin-left: 19px;
+  }
+  .logos2 {
+    display: flex;
+    margin-left: 175px;
+  }
+  #logoo {
+    width: 150px;
+    height: 190px;
+    border-radius: 8px;
+    margin-left: 18px;
+  }
+  /* #forms {
+    font-size: large;
+    margin: 200px;
+  } */
+}

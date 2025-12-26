@@ -1,34 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
+    <link
+      rel="stylesheet"
+      href="/project/jedan-html-portfolio.Perform/css/style.css"
+    />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="index.html">Home</a>&nbsp; <a href="about.html">About</a>&nbsp;
-        <a href="project.html">Project</a>&nbsp;
-        <a href="contact.html">Contact</a>
+    <header class="header">
+      <nav class="nav-bar">
+        <a class="nav" href="index.html">Home</a>&nbsp;
+        <a class="nav" href="about.html">About</a>&nbsp;
+        <a class="nav" href="project.html">Project</a>&nbsp;
+        <a class="nav" href="contact.html">Contact</a>
       </nav>
     </header>
     <br />
-    <form action="">
-      <label for="">Name:</label>
-      <input type="text" placeholder="please enter full name" />
+
+    <form id="forms" action="">
+      <label class="label" for="">Name:</label>
+      <input class="place" type="text" placeholder="please enter full name" />
       <br />
       <br />
-      <label for="">Email:</label>
-      <input type="email" placeholder="please enter your email" />
+      <label class="label" for="">Email:</label>
+      <input class="place" type="email" placeholder="please enter your email" />
       <br />
       <br />
-      <label for="">Message:</label>
-      <textarea
-        type="text"
-        placeholder="If you have some comment add here"
-        rows="4"
-      ></textarea>
+      <label class="label" for="">Phone: </label>
+      <input
+        class="place"
+        type="number"
+        placeholder="please enter your phone"
+      />
+      <br />
+      <br />
+      <label class="label" for="">Birthdate: </label>
+      <input class="place" type="date" />
+      <br />
+      <br />
     </form>
+    <button class="button">SignIn</button>
+    <br />
+    <footer class="footer">copy right &copy</footer>
   </body>
 </html>
